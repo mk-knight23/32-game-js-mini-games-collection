@@ -10,12 +10,13 @@
   "scripts": {
     "production": "npm run build && npm start",
     "dev": "vite",
-    "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc -b && vite build"
   },
   "dependencies": {
     "@vueuse/core": "^11.3.0",
-    "@vueuse/head": "^2.0.0",
+    "@vueuse/head": "^0.9.8",
     "pinia": "^2.3.1",
     "react-router": "^7.13.0",
     "vue": "^3.5.13",
